@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Bengali', 'Anek Bangla', 'Hind Siliguri', 'Plus Jakarta Sans', sans-serif;
+    background-color: #F8F5EE;
+    color: #3D342C;
+  }
+}
+
+.font-bengali-clear {
+  font-family: 'Noto Sans Bengali', 'Anek Bangla', 'Hind Siliguri', sans-serif;
+}
+
+.font-bengali-handwritten {
+  font-family: 'Anek Bangla', 'Hind Siliguri', 'Caveat', cursive, sans-serif;
+}
+
+.font-cute {
+  font-family: 'Anek Bangla', 'Noto Sans Bengali', 'Hind Siliguri', 'Mali', sans-serif;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(2deg); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { transform: scale(1); opacity: 0.92; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.35; transform: scale(0.85); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.animate-float {
+  animation: float-slow 3.5s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.animate-twinkle {
+  animation: twinkle 2.5s ease-in-out infinite;
+}
+
+/* Natural Tones Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1ECE1;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBB298;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A98467;
+}
