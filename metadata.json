@@ -1,0 +1,6 @@
+{
+  "name": "Cat Birthday Surprise Story",
+  "description": "An interactive animated birthday surprise storybook featuring cute cats, knocking on the door, calendar reveal for August 18 2026, celebration hug, a secret Bengali birthday letter notebook, and cozy bedtime scene.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
